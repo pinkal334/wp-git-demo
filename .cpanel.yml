@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/Hardik Amin/public_html/wp-content/plugins/wp-git-demo/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp wp-git-demo.php $DEPLOYPATH
