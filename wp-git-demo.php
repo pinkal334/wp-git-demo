@@ -5,5 +5,5 @@
  * Version: 1.0
  */
 add_action('wp_footer', function () {
-    echo '<p style="text-align:center;font-size:12px;">Updated via WP Pusher new + GitHub</p>';
+    echo '<p style="text-align:center;font-size:12px;">Updated via WP Pusher old + GitHub</p>';
 });
